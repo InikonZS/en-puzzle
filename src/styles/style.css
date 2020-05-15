@@ -1,3 +1,28 @@
 .global_wrapper{
   width: 100%;
 }
+
+.source_dash{
+  height: 300px;
+  border-style: solid;
+  position: relative;
+}
+
+.dest_dash{
+  height: 300px;
+  border-style: solid;
+  position: relative;
+}
+
+.dragable{
+  position: absolute;
+  user-select: none;
+  border-style: solid;
+  min-height: 30px;
+}
+
+.bl_style:hover{
+  border-style:solid;
+        border-width:3px;
+        border-color:#99F;
+}
